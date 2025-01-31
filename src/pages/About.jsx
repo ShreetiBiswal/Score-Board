@@ -28,7 +28,7 @@ const About = () => {
         {/* Contribution Links */}
         <div className="text-center mt-8">
           <a
-            href="https://github.com/YourGitHubUsername/YourRepositoryName"
+            href="https://github.com/ShreetiBiswal/Score-Board"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block bg-blue-500 text-white font-semibold px-6 py-2 rounded-lg shadow-lg hover:bg-blue-600 transition duration-300"
