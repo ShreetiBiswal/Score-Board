@@ -35,5 +35,5 @@ Feel free to contribute by creating a pull request!
 
 ---  
 
-**🔗 Live Demo:** _[Add Link if Hosted]_  
+**🔗 Live Demo:** _[https://score-board-pearl.vercel.app/]_  
 **📩 Contact:** _[biswalshreeti@gmail.com]_
