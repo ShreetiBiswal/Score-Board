@@ -17,7 +17,7 @@ const Footer = () => {
           <div className="flex space-x-6 mt-4 md:mt-0">
            
             <a 
-              href="https://github.com/your-github" 
+              href="https://github.com/ShreetiBiswal/Score-Board"
               target="_blank" 
               rel="noopener noreferrer" 
               className="text-white hover:text-blue-400 relative group" 
