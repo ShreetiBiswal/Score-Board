@@ -40,7 +40,7 @@ const About = () => {
         {/* Contact Information */}
         <div className="text-center mt-4">
           <p className="text-gray-700">
-            Contact me at <span className="font-bold">biswalshreeti@gmail.com</span>
+            Contact me at <span className="font-bold"><a href='mailto:biswalshreeti@gmail.com'>biswalshreeti@gmail.com</a></span>
           </p>
         </div>
       </div>
