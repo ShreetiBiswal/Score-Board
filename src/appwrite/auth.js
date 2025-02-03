@@ -74,7 +74,11 @@ export class AuthService{
 
     async getCurrentUser(){
         try{
-            return await this.account.get();
+            const currUser= await this.account.get();
+            if(!currUser){
+                throw new Error("Could not get current user")
+            }
+            return currUser;
         }catch(error){
              console.log("At getCurrentUser::ERROR",error.message)
              throw error;
@@ -86,6 +90,9 @@ export class AuthService{
         const result=await this.users.list(
             [Query.equal("email",email)]
         )
+        if(!result.users[0]){
+            throw new Error(`No user exists with the mail:${email}`)
+        }
         return result.users[0]
    
        } catch (error) {
