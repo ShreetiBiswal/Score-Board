@@ -24,7 +24,7 @@ const Header = () => {
     <header className="flex justify-between items-center p-4 bg-gray-800 text-white mb-3 shadow-lg">
       <div className="flex items-center">
         <img 
-          src="src\assets\logo.png" 
+          src="https://res.cloudinary.com/dxa1zkub6/image/upload/v1742454234/n9be50sy1b8oyabhy2yl.png" 
           alt="Logo" 
           className="h-16 w-16 sm:h-14 sm:w-14 rounded-full shadow-lg mb-3" 
         />
